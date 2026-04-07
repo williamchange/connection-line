@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://ca5erhunoa2s"]
+
+[ext_resource type="Script" uid="uid://cnthbka7vvmm7" path="res://scene.gd" id="1_ulcgi"]
+
+[node name="Control" type="GraphEdit" unique_id=1592787443]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+snapping_enabled = false
+script = ExtResource("1_ulcgi")
+
+[node name="A" type="GraphNode" parent="." unique_id=414704426]
+layout_mode = 0
+offset_left = 186.0
+offset_top = 172.0
+offset_right = 357.0
+offset_bottom = 294.0
+mouse_filter = 1
+position_offset = Vector2(186, 172)
+title = "A"
+slot/0/left_enabled = true
+slot/0/left_type = 0
+slot/0/left_color = Color(1, 1, 1, 1)
+slot/0/left_icon = null
+slot/0/right_enabled = true
+slot/0/right_type = 0
+slot/0/right_color = Color(1, 1, 1, 1)
+slot/0/right_icon = null
+slot/0/draw_stylebox = true
+
+[node name="Control" type="Control" parent="A" unique_id=1613777129]
+layout_mode = 2
+
+[node name="B" type="GraphNode" parent="." unique_id=1151227500]
+layout_mode = 0
+offset_left = 689.0
+offset_top = 329.0
+offset_right = 860.0
+offset_bottom = 451.0
+mouse_filter = 1
+position_offset = Vector2(689, 329)
+title = "B"
+slot/0/left_enabled = true
+slot/0/left_type = 0
+slot/0/left_color = Color(1, 1, 1, 1)
+slot/0/left_icon = null
+slot/0/right_enabled = true
+slot/0/right_type = 0
+slot/0/right_color = Color(1, 1, 1, 1)
+slot/0/right_icon = null
+slot/0/draw_stylebox = true
+
+[node name="Control" type="Control" parent="B" unique_id=77331944]
+layout_mode = 2
